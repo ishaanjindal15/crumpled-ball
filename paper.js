@@ -8,6 +8,7 @@ class Paper{
         }
     this.body=Bodies.circle(x,y,20,options)
     this.radius=40;
+        World.add(world,this.body);  
     
     }
     
